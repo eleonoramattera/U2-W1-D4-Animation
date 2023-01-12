@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  height: 100%;
+  background-color: gray;
+  font-family: "Gloria Hallelujah", cursive;
+}
+main {
+  height: 100vh;
+}
+
+.container {
+  padding: 50px 0 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+article {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 20px #524b4b, inset 0px -33px 57px #998a8c8c;
+  animation: postitAnimation 4s;
+}
+
+@keyframes postitAnimation {
+  0% {
+    transform: rotate(-1deg) scale(0%);
+    opacity: 0%;
+  }
+  80% {
+    transform: rotate(370deg);
+    opacity: 80%;
+  }
+  100% {
+    transform: rotate(1deg) scale(100%);
+    opacity: 100%;
+  }
+}
+
+#task1 {
+  background-color: #e9eab4;
+  transform: rotate(-6deg);
+  transition: transform 2s;
+  transition-timing-function: linear;
+}
+
+#task1:hover {
+  transform: rotate(0deg) scale(1.2);
+  box-shadow: 5px 5px 20px #3e3939, inset 0px -33px 57px #998a8c8c;
+  z-index: 2;
+}
+
+#task2 {
+  background-color: #cbe9bc;
+  transform: rotate(4deg);
+  transition: transform 2s;
+  transition-timing-function: linear;
+  animation: postitAnimation 4s;
+}
+
+#task2:hover {
+  transform: rotate(0deg) scale(1.2);
+  box-shadow: 5px 5px 20px #3e3939, inset 0px -33px 57px #998a8c8c;
+  z-index: 3;
+}
+
+#task3 {
+  background-color: #c1c9de;
+  transform: rotate(-10deg);
+  transition: transform 2s;
+  transition-timing-function: linear;
+  animation: postitAnimation 4s;
+}
+#task3:hover {
+  transform: rotate(0deg) scale(1.2);
+  box-shadow: 5px 5px 20px #3e3939, inset 0px -33px 57px #998a8c8c;
+  z-index: 2;
+}
+#task4 {
+  background-color: #bdddc3;
+  transform: rotate(12deg);
+  transition: transform 3s;
+  transition-timing-function: linear;
+  animation: postitAnimation 4s;
+}
+#task4:hover {
+  transform: rotate(0deg) scale(1.2);
+  box-shadow: 5px 5px 20px #3e3939, inset 0px -33px 57px #998a8c8c;
+}
+
+#task5 {
+  background-color: #e9eab4;
+  transform: rotate(-6deg);
+  transition: transform 2s;
+  transition-timing-function: linear;
+  animation: postitAnimation 4s;
+}
+#task5:hover {
+  transform: rotate(0deg) scale(1.2);
+  box-shadow: 5px 5px 20px #3e3939, inset 0px -33px 57px #998a8c8c;
+  z-index: 2;
+}
+#task6 {
+  background-color: #bebeca;
+  transform: rotate(-10deg);
+  transition: transform 2s;
+  transition-timing-function: linear;
+  animation: postitAnimation 4s;
+}
+#task6:hover {
+  transform: rotate(0deg) scale(1.2);
+  box-shadow: 5px 5px 20px #3e3939, inset 0px -33px 57px #998a8c8c;
+  z-index: 3;
+}
+#task7 {
+  background-color: #e3e3bb;
+  transform: rotate(-4deg);
+  transition: transform 2s;
+  transition-timing-function: linear;
+  animation: postitAnimation 4s;
+}
+#task7:hover {
+  transform: rotate(0deg) scale(1.2);
+  box-shadow: 5px 5px 20px #3e3939, inset 0px -33px 57px #998a8c8c;
+  z-index: 2;
+}
+#task8 {
+  background-color: #c0ddba;
+  transform: rotate(4deg);
+  transition: transform 2s;
+  transition-timing-function: linear;
+  animation: postitAnimation 4s;
+}
+#task8:hover {
+  transform: rotate(0deg) scale(1.2);
+  box-shadow: 5px 5px 20px #3e3939, inset 0px -33px 57px #998a8c8c;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+
+p {
+  font-size: 1.5em;
+}
